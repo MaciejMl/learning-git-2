@@ -1,7 +1,4 @@
 /* Variables */
-$color-main: #bdc3c7;
-$font-main: 'Josefin Sans', sans-serif;
-
 *,
 *::before,
 *::after {
@@ -11,22 +8,24 @@ $font-main: 'Josefin Sans', sans-serif;
 body {
   margin: 0;
   line-height: 1.7;
-  font-family: $font-main;
+  font-family: "Josefin Sans", sans-serif;
   background-color: rgb(145, 141, 141);
   background-image: url(https://images.pexels.com/photos/13315197/pexels-photo-13315197.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
   background-repeat: no-repeat;
   background-position: 30%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 h1 {
   font-size: 36px;
 }
+
 section {
   margin: 100px 30%;
   padding: 50px;
-  border: 1px solid $color-main;
+  border: 1px solid #bdc3c7;
   border-radius: 30px;
   opacity: 80%;
-  background: $color-main;
-}
+  background: #bdc3c7;
+}/*# sourceMappingURL=style.css.map */
